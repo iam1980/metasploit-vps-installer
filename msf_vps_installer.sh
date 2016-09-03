@@ -35,4 +35,4 @@ gem install bundler
 bundle install
 
 
-echo -e "${PURPLE}All done. Type ./msfconsole to run metasploit${NC}"
+echo -e "${PURPLE}All done. ${NC}"
