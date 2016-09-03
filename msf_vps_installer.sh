@@ -29,6 +29,7 @@ curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 curl -L https://get.rvm.io | bash -s stable
 source ~/.rvm/scripts/rvm
 cd ~/metasploit-framework
+echo -e "${PURPLE}Now we wait...${NC}"
 rvm --install .ruby-version
 gem install bundler
 bundle install
