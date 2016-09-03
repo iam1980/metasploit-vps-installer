@@ -19,5 +19,5 @@ bash msf_vps_installer.sh
 ```
 
 YMMV!
-# https://medium.com/@iraklis
+https://medium.com/@iraklis
 
