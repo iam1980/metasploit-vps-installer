@@ -16,6 +16,7 @@ git clone https://github.com/rapid7/metasploit-framework.git
 curl -sSL https://rvm.io/mpapis.asc | gpg --import -
 curl -L https://get.rvm.io | bash -s stable
 source /etc/profile.d/rvm.sh
+echo "source /etc/profile.d/rvm.sh" >> /root/.profile
 cd metasploit-framework
 rvm install ruby-2.3.3
 cd ..
